@@ -60,7 +60,6 @@ const linkedinBtn=document.querySelector(".linkedin-btn");
 const whatsappBtn=document.querySelector(".whatsapp-btn");
 
 function init() {
-    
 
     let postUrl=encodeURI(document.location.href);
     let postTitle=encodeURI("Hi everyone pls check this out:");
@@ -83,7 +82,6 @@ function init() {
         "href",
         `https://api.whatsapp.com/send?text=${postTitle} ${postUrl}`
     );
-
 
 }
 init(); 
